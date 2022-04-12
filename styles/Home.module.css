@@ -1,0 +1,18 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: aliceblue;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+  width: 90vw;
+  height: 600px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
