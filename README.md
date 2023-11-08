@@ -1,7 +1,7 @@
 <h1 align="center">Image Uploader</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from  <a href="https://legacy.devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx" target="_blank">Devchallenges.io</a>.
 </div>
 
 ## Table of Contents
@@ -29,13 +29,13 @@
 - Next JS really helps for signing the upload as it protects your secret and saves you from coding an express server.  
 - [Cloudinary](https://github.com/cloudinary-devs/cld-signed-upload-examples) has an example where a whole express server is required.
 
-- I limited it to single file uploads - to render multiple uploads have to do extra looping when uploading & rendering the image / link 
+- I limited it to single file uploads - to render multiple uploads have to do extra looping when uploading & rendering the image / link. 
 
 - target _blank now includes noopener by default but nextjs warns you without rel="noreferrer" (which includes noopener) 
 
 - need performance optimizations to lower first page load (133kb).  CSS file seems large for limited css here.  The CSS in the components may be expensive.  
 
-- have to refresh after uploading image
+- You have to refresh after uploading an image.
 
 - If you upload an svg, the public cloudinary link will prompt you to download the file to see it.
 
@@ -70,7 +70,7 @@ $ npm run start
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.
 
 ## Requirements
 
