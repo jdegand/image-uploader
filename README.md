@@ -1,7 +1,7 @@
 <h1 align="center">Image Uploader</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="https://legacy.devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx" target="_blank">Devchallenges.io</a>.
+   Solution for a challenge from  <a href="https://web.archive.org/web/20231130051853/https://legacy.devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx" target="_blank">Devchallenges.io</a>.
 </div>
 
 ## Table of Contents
@@ -11,15 +11,60 @@
 - [How To Use](#how-to-use)
 - [Features](#features)
 - [Requirements](#requirements)
+- [Thoughts](#thoughts)
 - [Useful Resources](#useful-resources)
 
 ## Overview
 
-![](image-uploader-homepage.png)
+![Homepage](image-uploader-homepage.png)
 
-![](image-uploader-file-added.png)
+***
 
-![](image-uploader-successful-upload.png)
+![File Added](image-uploader-file-added.png)
+
+***
+
+![Successful Upload](image-uploader-successful-upload.png)
+
+***
+
+### Built With
+
+- [Next](https://nextjs.org)
+- [Cloudinary](https://cloudinary.com)
+- [React DND](https://react-dnd.github.io/react-dnd/about)
+
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/jdegand/image-uploader.git
+
+# Install dependencies
+$ npm install
+
+# Add env variables from cloudinary
+
+# Run the app
+$ npm run build
+$ npm run start
+```
+
+## Features
+
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://web.archive.org/web/20231130051853/https://legacy.devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories. **Note**: The previous design document may be incomplete, as you need to find an archived version of the challenge as all `legacy` challenges have had their documentation removed from DevChallenges.
+
+## Requirements
+
+- [x]  I can drag and drop an image to upload it
+- [x]  I can choose to select an image from my folder
+- [ ]  I can see a loader when uploading
+- [x]  When the image is uploaded, I can see the image and copy it
+- [ ]  I can choose to copy to the clipboard
+
+## Thoughts
 
 - This uses a signed signature. 
 
@@ -43,42 +88,6 @@
 - I decided to remove it with conditional rendering.  Set title attribute of file input to uploadedFile state value? 
 
 - You have to manually add a language attribute to a next js project.  [See Github](https://github.com/vercel/next.js/issues/9160) for more about this.  I find this a little bizarre and something that I guarantee users of create-next-app take for granted.
-
-### Built With
-
-- [Next](https://nextjs.org)
-- [Cloudinary](https://cloudinary.com)
-- [React DND](https://react-dnd.github.io/react-dnd/about)
-
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/jdegand/image-uploader
-
-# Install dependencies
-$ npm install
-
-# Add env variables from cloudinary
-
-# Run the app
-$ npm run build
-$ npm run start
-```
-
-## Features
-
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://legacy.devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.
-
-## Requirements
-
-- [x]  I can drag and drop an image to upload it
-- [x]  I can choose to select an image from my folder
-- [ ]  I can see a loader when uploading
-- [x]  When the image is uploaded, I can see the image and copy it
-- [ ]  I can choose to copy to the clipboard
 
 ## Useful Resources
 
